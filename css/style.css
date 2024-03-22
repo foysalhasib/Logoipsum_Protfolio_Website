@@ -1,0 +1,514 @@
+/* =========================== Common Css start=================================== */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    display:block;
+}
+.title{
+    text-align: center;
+    
+}
+.title h2{
+    color: var(--dark-01, #151515);
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title  p{
+    margin: 0 auto ;
+    color: var(--dark-03, #737373);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+h1 h2 h3 h4 h5 h6{
+    margin: 0;
+}
+.container{
+    max-width: 1745px;
+}
+
+
+/* =============================  Common Css  end ============================= */
+/* ====================nav start============================== */
+
+
+.navbar .navbar-nav .nav-item .nav-link{
+    padding: 0;
+    color: #080808;
+    font-family: robato;
+    font-size: 22px;
+    font-style: normal;
+   
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #4846e0;
+    font-weight: 500;
+ 
+}
+.navbar .navbar-nav .nav-item .active{
+    color: #4846e0;
+    font-weight: 600;
+ 
+}
+.navbar .navbar-nav {
+    column-gap: 43px;
+    align-items: center;
+}
+.navbar .navbar-nav button {
+      padding: 18px 30px;
+      color: #4846e0;
+      border: 1px solid #4846e0;
+      background: #FFFFFF;
+      border-radius: 6px;
+      margin-left: 450px;
+}
+
+/* ====================nav end============================== */
+/* ====================Banner start============================== */
+
+#Banner_part {
+    background: url(../images/m_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#Banner_part  .left{
+    padding: 234px 0 318px 12px;
+}
+#Banner_part  .left p{
+    color: #080808;
+    font-family: robato;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 150%;
+    font-style: normal;
+}
+#Banner_part  .left h1{
+    margin-top: 21px;
+    width: 790.67px;
+    color: #080808;
+    font-family: robato;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    font-style: normal;
+}
+#Banner_part  .left span{
+    color: rgb(102, 63, 241);
+  
+}
+
+#Banner_part  .left h2{
+    margin-top: 21px;
+    width: 621.33px;
+    color: #080808;
+    font-family: robato;
+    font-size: 24px;
+    line-height: 150%;
+}
+#Banner_part  .left button{
+    margin-top: 72px;
+    color: #ffffff;
+    font-family: robato;
+    font-size: 21px;
+    line-height: 150%;
+    padding: 18px 25px;
+    background: #4f3bff;
+    border-radius: 6px;
+    border: 0;
+}
+
+#Banner_part  .right{
+    padding: 133px 0 133px ;
+}
+#Banner_part  .right img{
+    width: 100%;
+}
+
+/* ====================Banner end============================== */
+/* ====================skill Start============================== */
+#Skills_part{
+    padding-top: 150px;
+}
+
+#Skills_part p{
+    color: #080808;
+    font-family: robato;
+    font-size: 21px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+#Skills_part h2{
+    margin-top: 21px;
+    color: #080808;
+    font-family: robato;
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+ #Skills_part .row{
+     column-gap: 41px;
+} 
+#Skills_part .Skl_img {
+   display: flex;
+   justify-content: center;
+}
+#Skills_part .box{
+    width: 405.33px;
+    margin-top: 106px;
+    background: #F5FCFF;
+    border-radius: 10px;
+ 
+}
+#Skills_part .box:hover{
+    border-bottom: 2px solid #4846e0;
+ 
+}
+
+#Skills_part .text{
+    padding: 32px;
+}
+#Skills_part .box{
+    text-align: center;
+}
+#Skills_part .text h3{
+    width: 341px;
+    color: #080808;
+    font-family: robato;
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: 700;
+}
+#Skills_part .text p{
+    width: 341px;
+    color: #080808;
+    font-family: robato;
+    font-size: 21px;
+    line-height: 150%;
+    
+}
+
+/* ====================skill end============================== */
+/* ====================About start============================== */
+#about_part{
+    padding-top: 200px;
+}
+#about_part .left img{
+    width: 100%;
+}
+
+#about_part .right{
+   padding: 300px 24px 150px;
+}
+#about_part .right h2{
+    color: #080808;
+    font-family: robato;
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 700;
+    
+}
+#about_part .right h3{
+    margin-top: 40px;
+    width: 821px;
+    color: #080808;
+    font-family: robato;
+    font-size: 24px;
+    line-height: 150%;
+  
+}
+#about_part .right h4{
+    margin-top: 50px;
+    width: 821px;
+    color: #080808;
+    font-family: robato;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+/* ====================About end============================== */
+/* ====================Portfolio start============================== */
+#Portfolio_part{
+    padding: 150px 0;
+}
+#Portfolio_part .top{
+    display: flex;
+    justify-content: space-between;
+}
+#Portfolio_part .top .left p{
+    color: #080808;
+    font-family: robato;
+    font-size: 21px;
+    line-height: 150%;
+    font-weight: 600;
+}
+#Portfolio_part  .top .left  h2{
+    color: #080808;
+    font-family: robato;
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+
+
+#Portfolio_part .main { 
+    display: flex;
+    align-items: center;
+    padding: 21px;
+    background: #E62872;
+    border-radius: 10px;
+}
+
+#Portfolio_part .right h6 {
+    margin-left: 16px;
+    color: #ffffff;
+    font-family: robato;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+
+#Portfolio_part  .bottom {
+    margin-top: 107px;
+}
+#Portfolio_part  .bottom img{
+    width: 100%;
+}
+#Portfolio_part  .bottom .text{
+     padding: 32px; 
+     border: 1px solid rgb(241, 236, 236); 
+}
+#Portfolio_part  .bottom .text h2{
+    color: #030303;
+    font-family: robato;
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: 700;
+}
+#Portfolio_part  .bottom .text h3{
+    margin-top: 10px;
+    width: 490px;
+    color: #030303;
+    font-family: robato;
+    font-size: 22px;
+    line-height: 150%;
+}
+#Portfolio_part  .bottom .text button{
+     margin-top: 32px;
+     border: 0;
+     background: #ffffff;
+    color: #030303;
+    font-family: robato;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+}
+#Portfolio_part  .bottom .text button i{
+    margin-left: 6px;
+}
+#Portfolio_part  .bottom .text button:hover{
+     border-bottom: 1px solid rgb(166, 14, 255);
+}
+/* ==================== Portfolio end============================== */
+/* ==================== testimonials  start============================== */
+#testimonials_part{
+    padding: 150px 0;
+    background: #F5FCFF;
+}
+
+#testimonials_part p{
+    color: #030303;
+    font-family: robato;
+    font-size: 21px;
+    line-height: 150%;
+    font-weight: 600;
+}
+#testimonials_part h2{
+    color: #030303;
+    font-family: robato;
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+#testimonials_part .box{
+     margin-top: 106px;
+}
+#testimonials_part .text{
+    padding: 42px;
+    border: 1px solid #006B6A;
+    border-radius: 8px;
+}
+#testimonials_part .icon i{
+   color: #006B6A;
+}
+#testimonials_part h6{
+   margin-top: 42px;
+   width: 469px;
+   color: #030303;
+   font-family: robato;
+   font-size: 22px;
+   line-height: 150%;     
+}
+#testimonials_part .client {
+   margin-top: 42px;
+   display: flex;
+   align-items: center;
+   column-gap: 22px;
+    
+}
+#testimonials_part .client h4 {
+    color: #030303;
+    font-family: robato;
+    font-size: 22px;
+    line-height: 150%;
+    font-weight: 600;
+     
+}
+
+#testimonials_part .client p {
+    color: #030303;
+    font-family: robato;
+    font-size: 20px;
+    line-height: 150%;   
+}
+
+/* ====================  testimonials end============================== */
+/* ====================  Contact start============================== */
+#Contact_part{
+   padding: 150px 0;
+   background: #caffd5;
+}
+
+#Contact_part p{
+    text-align: center;
+    color: #030303;
+    font-family: robato;
+    font-size: 21px;
+    line-height: 150%;
+    font-weight: 600;
+}
+#Contact_part h2{
+    text-align: center;
+    color: #030303;
+    font-family: robato;
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 700;
+}
+#Contact_part h3{
+    text-align: center;
+    color: #030303;
+    font-family: robato;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+#Contact_part .box{
+     width: 300px;
+     margin: 0 auto;
+}
+#Contact_part .box input{
+     width: 300px;
+     border-radius: 10px;
+     margin-top: 16px;
+     color: rgb(0, 0, 0);
+     margin-top: 26px;
+     padding: 10px 20px;
+     outline: 0;
+     font-size: 20px;
+}
+
+#Contact_part .box  .sub_btn{
+     text-align: center;
+     margin-top: 20px;
+}
+#Contact_part .box  button{
+    padding: 10px 26px;
+    border: 1px solid rgb(235, 155, 36);
+    border-radius: 8px;
+    background: #ffdb67;
+    font-size: 20px;
+    
+}
+
+
+
+/* ====================  Contact end============================== */
+/* ====================  footer  start============================== */
+#footer_part{
+    background: #F5FCFF;
+}
+#footer_part .container{
+    padding: 70px 0 60px;
+    
+}
+#footer_part img{
+    width: 100%;
+}
+#footer_part ul{
+    display: flex;
+    column-gap: 24px;
+}
+#footer_part  ul li a{
+    display: flex;
+    column-gap: 24px;
+    color: #080808;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#footer_part .f_icon{
+    display: flex;
+    column-gap: 30px;
+    justify-content: end;  
+}
+#footer_part .f_icon i{
+    font-size: 34px;
+    color: #080808;
+   
+}
+
+#footer_part  h6{
+    padding: 30px;
+    text-align: center;
+    border-top:2px solid #be4b78;
+    font-size: 30px;
+}
+#footer_part  span{
+   color: rgb(218, 62, 62);
+   font-weight: 700;
+}
+
+
+
+
+
+
+
+
+/* ====================  footer end============================== */
